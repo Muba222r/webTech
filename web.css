@@ -1,0 +1,103 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header_dv{
+    width:100%;
+    aspect-ratio: 1/1;
+    max-height: 200px;
+    background-image: linear-gradient(to right,#c4183c,#4f37ac);
+    /* background-image: linear-gradient(43deg,#4158D0 0%, #c850c0 46%,#ffcc70 100% ); */
+    color: whitesmoke;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c4183c;
+    border-radius: 0px 0px 50px 50px;
+
+}
+.header_dv h2{
+    text-align: center;
+    /* padding: 10px; */
+    font-size: 1.8em;
+    font-style:italic;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    /* width: 509px; */
+
+}
+h2{
+    bg
+}
+
+.div-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-nav a{
+color:aliceblue;
+text-decoration: none;
+font-size:1rem;
+margin-top:50px
+/* border-bottom:solid whitesmoke;
+border-radius: 4px; */
+
+}
+.div-nav a:hover{
+    border-bottom:solid whitesmoke;
+    border-radius: 4px; 
+    transform: scale(1.6);
+    background-image:linear-gradient(43deg,#188ec4,#ac37a2) ;
+   
+}
+
+h2:hover{
+    transform: scale(1.1);
+    background-image:linear-gradient(to right,#188ec4,#ac37a2) ;
+}
+body{
+    text-align: center;
+    background-image:linear-gradient(to right,#0e0f0fcc,#0e0b0df3);
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin: 10px 10px 10px 10px;
+    border-radius: 25px;
+    /* background-image:linear-gradient(to right,#e0e0e0a9,#8c8f87,#6e7461) ; */
+    background-image: linear-gradient(43deg,#4159d088 0%, #c850c071 46%,#ffcd709c 140% );
+
+   
+}
+
+.div-img{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align:center;
+    margin-top: 10px; 
+    width: 70%;
+    margin-left: 10px;
+    max-height: fit-content;
+    flex-basis:inherit;
+    height: 100%;
+    overflow:auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.pic{
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: rgb(0, 0, 0)
+}
+h3{
+    font-size: 30px;
+    background-image: linear-gradient(43deg,#4158D0 0%, #c850c0 46%,#ffcc70 100% );
+    color:transparent;
+    -webkit-background-clip: text;
+}
